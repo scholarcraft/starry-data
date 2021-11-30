@@ -1,0 +1,13 @@
+Package: starrydata
+Type: Package
+Title: Example datasets for Starry
+Version: 0.1.0
+Author: Scholarcraft, LLC
+Maintainer: Scholarcraft LLC <contact@starry.app>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
