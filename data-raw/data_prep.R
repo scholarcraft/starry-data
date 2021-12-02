@@ -2,14 +2,22 @@
 library(usethis)
 library(lavaan)
 
+
+
 Anscombe <- anscombe
-Iris <- iris
-Mtcars <- mtcars
-`Holzinger Swineford 1939` <- HolzingerSwineford1939
-
-
 use_data(Anscombe, overwrite = TRUE)
-use_data(Iris, overwrite = TRUE)
-use_data(Mtcars, overwrite = TRUE)
-use_data(`Holzinger Swineford 1939`, overwrite = TRUE)
 
+
+Iris <- iris
+use_data(Iris, overwrite = TRUE)
+
+
+MotorTrends <- mtcars
+use_data(MotorTrends, overwrite = TRUE)
+
+
+HolzingerSwineford1939 <- HolzingerSwineford1939
+use_data(HolzingerSwineford1939, overwrite = TRUE)
+
+StarWars <- dplyr::starwars
+use_data(StarWars, overwrite = TRUE)
