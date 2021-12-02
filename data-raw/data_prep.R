@@ -1,7 +1,7 @@
 
 library(usethis)
 library(lavaan)
-
+library(openintro)
 
 
 Anscombe <- anscombe
@@ -21,3 +21,10 @@ use_data(HolzingerSwineford1939, overwrite = TRUE)
 
 StarWars <- dplyr::starwars
 use_data(StarWars, overwrite = TRUE)
+
+
+Absenteeism <- openintro::absenteeism
+use_data(Absenteeism, overwrite = TRUE)
+
+ChildHealth <- openintro::babies
+use_data(ChildHealth, overwrite = TRUE)
